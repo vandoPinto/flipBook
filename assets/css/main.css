@@ -1,0 +1,370 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+html,
+body,
+html * {
+  font-family: 'Verdana', sans-serif;
+}
+
+body {
+  position: relative;
+  /* padding-top: 12vh; */
+  font-family: 'Verdana', sans-serif;
+  background: #fff;
+  font-size: 9px;
+  color: #333;
+  font-weight: 500;
+  /* letter-spacing: 1px; */
+}
+
+h1 {
+  font-weight: 700 !important;
+  font-size: 10px;
+}
+
+h2 {
+  color: var(--color-blue-1);
+  font-weight: 700 !important;
+  font-size: 12px;
+}
+
+
+ul {
+  list-style-type: none;
+  /* padding: 0;
+  margin: 0; */
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Cores */
+
+:root {
+  --color-font: #333;
+  --color-orange: #F18605;
+  --color-orange1:#F0612B;
+  --color-orange2:#CA5227;
+  --color-brown-1: #decbac;
+  --color-brown-2: #907445;
+  --color-brown-3: #B1A289;
+  --color-gray: #E4E4E4;
+  --color-gray2:#707070;
+  --color-green: #048484;
+  --color-green1: #009A77;
+  --color-green2: #E6F9F6;
+  --color-green3: #008082;
+  --color-green4:#F4F9F9;
+  --color-green5:#C4FFF3;
+  --color-green6:#E3EFE3;
+  --color-green7:#038562;
+  --color-blue-1: #0A6B96;
+  --color-blue-2: #2e2c7e;
+  --color-blue-3: #5a9db5;
+  --color-blue-4:#6EA5C0;
+  --color-blue-5:#0C5274;
+  --color-blue-6:#0E6B97;
+  --color-blue-7:#E4F5FD;
+  --color-blue-8:#096796;
+  --color-background: #fff;
+  --color-background-fullscreen: #C0C0C0;
+  --color-scroll-1: rgb(220, 220, 220);
+  --color-gray: #EBEBEB;
+  --color-gray1: #59595b;
+  --color-gray2:#D9D9D8;
+  --color-gray3:#F5F5F5;
+  --color-black:#333;
+}
+
+/* Navbar Lateral */
+.navbar {
+  background-color: var(--color-gray);
+  overflow-y: auto;
+  padding: 0;
+  height: 8vh;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+  justify-content: space-between !important;
+
+}
+
+.navbar-nav {
+  min-width: 100vh;
+  background-color: var(--color-gray);
+}
+
+.navbar-nav li {
+  max-width: 15rem;
+  min-width: 15rem;
+}
+
+.navmain {
+  justify-content: space-between !important;
+}
+
+#sidebar {
+  margin-top: 8vh;
+  min-width: 15rem;
+  max-width: 15rem;
+  font-weight: 600;
+  color: var(--color-background);
+  transition: all 0.3s;
+  position: fixed;
+  min-height: 100vh;
+  padding-bottom: 8vh;
+  overflow-x: hidden;
+  align-items: flex-start;
+}
+
+.fixed-top {
+  max-height: 100vh;
+  overflow: auto;
+}
+
+#sidebar.active {
+  align-items: flex-start;
+  min-height: 100vh;
+  min-width: 0.5rem;
+  max-width: 0.5rem;
+  text-align: center;
+  background-color: var(--color-background);
+  color: var(--color-background);
+  overflow-y: hidden;
+  margin-top: 8vh;
+  margin-bottom: 5vh;
+}
+
+#sidebar ul li a {
+  padding: 1.7rem 0.8rem;
+  font-size: 0.8rem;
+  flex-wrap: wrap;
+  color: var(--color-font);
+  /* border-top: 1px solid var(--color-font); */
+}
+
+#sidebar ul li i {
+  padding-right: 0.8rem;
+  font-size: 0.9rem;
+}
+
+#sidebar ul li a:hover {
+  color: var(--color-background);
+  background: var(--color-blue-1);
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+  color: var(--color-background);
+  background: var(--color-gray1);
+}
+
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+
+/* Botão de Navegação */
+.logo {
+  position: fixed;
+  z-index: 2;
+  padding: 0.3rem;
+  text-align: center;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  background-color: var(--color-blue-1);
+  color: var(--color-background);
+  min-width: 2rem;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: var(--color-blue-1);
+}
+
+.totop {
+  bottom: 135px;
+  right: 0.8rem;
+}
+
+.prev {
+  bottom: 80px;
+  right: 0.8rem;
+}
+
+.next {
+  bottom: 28px;
+  right: 0.8rem;
+}
+
+/* Botão Menu */
+.btn-menu {
+  background-color: var(--color-gray1);
+  color: var(--color-background);
+  border-color: var(-color-gray1);
+  margin-left: 1rem;
+}
+
+/* .btn-menu:focus {
+  background-color: var(--color-brown-3);
+  border-color: var(--color-brown-1);
+} */
+
+.btn-menu:hover {
+  background-color: var(--color-blue-1);
+  color: var(--color-background);
+  border-color: var(--color-blue-1);
+}
+
+.btn-menu:active {
+  background-color: var(--color-brown-3);
+  color: var(--color-background);
+}
+
+.rotulo {
+  font-size: 13px;
+  position: fixed;
+}
+
+.top {
+  top: 10px;
+  right: 5px;
+}
+
+.bot {
+  bottom: 5px;
+  right: 5px;
+}
+
+.reload {
+  float: right;
+  cursor: pointer;
+}
+
+
+/* Fullscreen */
+
+/* botões de tela-cheia */
+/* [class|=fullscreen] {
+    position: absolute;
+    right: 18px;
+    z-index: 2;
+  } */
+.fullscreen-btn {
+  float: right;
+}
+
+.fullscreen-btn i {
+  color: var(--color-blue-1);
+  font-size: 1.5rem;
+}
+
+.fullscreen-show {
+  display: none;
+}
+
+.fullscreen-hide {
+  display: block;
+}
+
+:fullscreen::backdrop {
+  background-color: #ccc;
+}
+
+/* fullscreen
+  * as regras a seguir estão separados para evitar um problema no Firefox,
+  * que não encontra os objetos caso exista mais de 1 seletor com a 
+  * pseudo-classe :fullscreen
+  */
+:-webkit-full-screen .fullscreen-show {
+  display: block;
+}
+
+:-moz-full-screen .fullscreen-show {
+  display: block;
+}
+
+:-ms-fullscreen .fullscreen-show {
+  display: block;
+}
+
+:fullscreen .fullscreen-show {
+  display: block;
+}
+
+:-webkit-full-screen .fullscreen-hide {
+  display: none;
+}
+
+:-moz-full-screen .fullscreen-hide {
+  display: none;
+}
+
+:-ms-fullscreen .fullscreen-hide {
+  display: none;
+}
+
+:fullscreen .fullscreen-hide {
+  display: none;
+}
+
+/* Scroll */
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+body::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 5px 5px 5px var(--color-background-fullscreen); */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-blue-1);
+  outline: 1px solid rgb(220, 220, 220);
+}
+
+.navbar::-webkit-scrollbar {
+  width: 0.35em;
+}
+
+.navbar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 22px var(--color-blue-1);
+}
+
+.navbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-brown-2);
+  outline: 1px solid rgb(220, 220, 220);
+}
+
+/* Container */
+
+section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+
+@media (max-width: 576px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  section {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+
+@media (max-width: 768px) {}
+
+@media (max-width: 900px) {}
+
+@media (max-width: 1080px) {}
