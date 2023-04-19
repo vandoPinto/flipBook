@@ -1,0 +1,1869 @@
+<!-- <?php include '../../../../config.php'; require_login(); ?> -->
+
+
+
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        overflow: hidden;
+    }
+
+    #section {
+        /* transform: scale(0.7); */
+        background: white;
+        -webkit-box-shadow: 0 4px 10px #666;
+        -moz-box-shadow: 0 4px 10px #666;
+        -ms-box-shadow: 0 4px 10px #666;
+        -o-box-shadow: 0 4px 10px #666;
+        box-shadow: 0 4px 10px #666;
+    }
+</style>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Disciplina 1 - PRODISA</title>
+
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+
+    <!-- JQuery -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/telas.css">
+
+
+    <!-- FontAwesome  -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Analytics -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRS7W174JB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BRS7W174JB');
+    </script>
+
+
+</head>
+
+<body data-spy="scroll" data-offset="100" data-target="#sidebar">
+    <!-- <nav id="sidebar" class="navbar fixed-top active">
+        <ul class="nav navbar-nav">
+            <li id="menu1" class="nav-item" title="Apresentação">
+                <a href="#section1" class="nav-link"><i class="fas fa-angle-right"></i><span class="nav-name">1 Formação
+                        do Estado moderno</span></a>
+            </li>
+            <li id="menu2" class="nav-item"
+                title="Princípios gerais sistematizadores do direito e das práticas jurídicas: desafios do direito sanitário e da gestão da saúde">
+                <a href="#section2" class="nav-link"><i class="fas fa-angle-right"></i><span class="nav-name">2 A
+                        evolução do Direito e do Estado</span></a>
+            </li>
+            <li id="menu3" class="nav-item" title="O axioma ontológico do direito e princípio da unidade normativa">
+                <a href="#section3" class="nav-link"><i class="fas fa-angle-right"></i><span class="nav-name">3
+                        Constitucionalização do Direito e a luta pelas políticas públicas no Brasil</span></a>
+            </li>
+            <li id="menu4" class="nav-item" title="Sistema conceitual e sistema normativo: o problema da vinculação">
+                <a href="#section4" class="nav-link"><i class="fas fa-angle-right"></i><span class="nav-name">4 Estado
+                        de Direito e sistema normativo: dois princípios estruturantes da separação dos
+                        poderes</span></a>
+            </li>
+            <li id="menu5" class="nav-item" title="A descodificação e a deslegalização: a perda de sistematicidade">
+                <a href="#section5" class="nav-link"><i class="fas fa-angle-right"></i><span class="nav-name">5 O axioma
+                        ontológico do direito e os limites das funções judiciais: voluntarismo e criacionismo judicial
+                        do direito</span></a>
+            </li>
+            <li id="menu6" class="nav-item" title="A descodificação e a deslegalização: a perda de sistematicidade">
+                <a href="#section6" class="nav-link"><i class="fas fa-angle-right"></i><span class="nav-name">6
+                        Princípios da unidade normativa e tripartição do poder: crise do sistema e da vinculação e
+                        ativismo judicial</span></a>
+            </li>
+            <li id="menu7" class="nav-item"
+                title="A constitucionalização do direito: uma nova estratégia sistematizadora">
+                <a href="#section7" class="nav-link"><i class="fas fa-angle-right"></i><span
+                        class="nav-name">Referências bibliográficas</span></a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="navmain">
+            <button type="button" id="sidebarCollapse" class="btn btn-menu">
+                <i class="fas fa-align-left"></i>
+            </button>
+        </div>
+        <div class="fullscreen-btn pr-4">
+            <div class="menu-itens-main">
+                <div class="img-menu" style="text-align: center ">
+                    <a href="recursos/documentos/RD_PRODISA_EDS_D1_RAP.pdf" target="_blank">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_4_btn_downloadApostila.svg">
+                    </a>
+                </div>
+                <div class="fullscreen-enter fullscreen-hide"><a href="#" title="Entrar em modo tela-cheia."><i
+                            id="btnEnterFull" class="fas fa-expand-arrows-alt"></i></a>
+                </div>
+                <div class="fullscreen-exit fullscreen-show"><a href="#" title="Sair do modo tela-cheia."><i
+                            id="btnExitFull" class="fas fa-compress"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav> -->
+    <div class="container-fluid">
+        <!--Página 1 - Capa-->
+        <div id="section" id="section1" class="front-cover">
+            <div class="row">
+                <img class="img-fluid mx-auto text-center" style="width: 70%;
+                height: 100%;" src="recursos/img/PRODISA_EDS_D1_RIM_1.svg" alt="">
+            </div>
+            <!-- <div class="row text-center justify-content-center mt-5">
+                    <div class="col-sm-12">
+                        <img class="img-fluid" src="recursos/img/logo.png" alt="">
+                    </div>
+                </div> -->
+            <div class="row justify-content-center ">
+               
+                    <div class="embed-responsive align-right">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_2_logocurso.svg">
+                    
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5 mb-3">
+                <div class="col-sm-12 container-text">
+
+                    <p>
+                        Estes são os ícones que você encontrará ao longo de sua leitura. Eles servem para destacar e
+                        chamar atenção para partes importantes, estimular o pensamento crítico, memorizar conteúdos,
+                        sugerir informação complementar, dar dicas e sintetizar partes do estudo.
+                    </p>
+
+                    <div class=" text-center">
+                        <img class="img-icon" src="recursos/img/PRODISA_EDS_D1_RIM_3.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5 mb-3">
+                <div class="col-sm-12 container-text">
+                    <div class="line-container">
+                        <div class="ml-3">
+                            <h1>Disciplina 1</h1>
+                            <p><strong>Direito Sanitário I</strong></p>
+                            <p>Professor Jairo Bisol</p>
+                            <p><a href="http://lattes.cnpq.br/7797091702268414"
+                                    target="_blank">http://lattes.cnpq.br/7797091702268414</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row justify-content-center mt-5 mb-3">
+                <div class="col-sm-12 container-text">
+                    <p><strong>Minicurrículo:</strong></p>
+                    <p>Jarbas Ricardo Almeida Cunha. Doutor em Direito, Estado e Constituição pela Universidade de
+                        Brasília (UnB), é Especialista em Direito Sanitário pela Fundação Oswaldo Cruz (Fiocruz).</p>
+                </div>
+            </div> -->
+
+        </div>
+
+        <div id="section" id="section2">
+
+            <div class="row justify-content-center mt-5 mb-3">
+                <div class="col-sm-12 container-text">
+                    <div class="mb-5">
+                        <h2>APRESENTAÇÃO</h2>
+                    </div>
+                    <p>
+                        Esta disciplina tem por objetivo ambientar o aluno no universo do Estado de Direito, oferecendo
+                        uma compreensão geral de sua origem histórica, sua evolução, suas finalidades e seus desafios.
+                        Prepara o aluno para incursões no campo do Direito Público.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5 mb-3">
+                <div class="col-sm-12 container-text">
+                    <div class="mb-5">
+                        <h2>1 FORMAÇÃO DO ESTADO MODERNO</h2>
+                    </div>
+                    <p>
+                        De Bodin a Hobbes, o conceito de soberania estabeleceu a relação entre Direito e Poder:
+                    </p>
+                    <div class="mb-2 mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_5.svg">
+                    </div>
+                    <p>
+                        É possível dizer que o debate em torno do conceito de soberania, que se desdobrou na história a
+                        partir do século XVI, foi a espinha dorsal em torno da qual o pensamento político foi lentamente
+                        concebendo e lapidando a noção de Estado.
+                    </p>
+                    <p>
+                        Bem observado, esse conceito sustenta que o Direito é produto da vontade do poder soberano. Em
+                        outras palavras, a validade normativa decorre da vontade do poder. A consagração dessa ideia ao
+                        longo da história foi o <b>Estado Absolutista</b>, no qual <b>o direito era expressão imediata
+                            da vontade do Príncipe</b>.
+                    </p>
+                    <p>
+                        O Estado gestou-se como uma alternativa monista ao pluralismo político-jurídico medievo, no qual
+                        conviviam várias ordens jurídicas sobrepostas, cada qual como expressão normativa de um poder
+                        diverso.
+                    </p>
+                    <div class=" mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_6.svg">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div id="section" id="section3">
+            <div class="row justify-content-center  mb-5">
+                <div class="col-sm-12 container-text ">
+                    <p>Cada instância de poder tinha o seu próprio direito (<strong><span
+                                style="color: var(--color-green);">clique</span></strong> nos números):</p>
+                    <div class="mt-5 mx-auto text-center">
+                        <div>
+                            <h2>DIREITO NATURAL</h2>
+                        </div>
+                        <div class="box-main item-layout ">
+                            <div class="mainSelected" id="numb1">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_7.svg">
+                            </div>
+                            <div id="text1" class="hide-op">
+                                <p><b>Senhor feudal x Direito do Príncipe </b></p>
+                                <p>
+                                    Os editos do senhor feudal, que regulavam a vida em torno dos castelos, disputavam
+                                    força normativa com o direito do príncipe.
+                                </p>
+                            </div>
+                            <div class="mainSelected" id="numb2">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_8.svg">
+                            </div>
+                            <div id="text2" class="hide-op">
+                                <p><b>Igreja Católica </b></p>
+                                <p>
+                                    Frente a essas duas ordens normativas em conflito, a Igreja Católica oferecia seu
+                                    direito canônico.
+                                </p>
+                            </div>
+                            <div class="mainSelected" id="numb3">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_9.svg">
+                            </div>
+
+                            <div id="text3" class="hide-op">
+                                <p><b>Direito Romano </b></p>
+                                <p>
+                                    Pairando sobre todas as três, existia o fantasma ainda ativo do direito romano.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center ">
+                <div class="col-sm-12 container-text">
+                    <div>
+                        <p>
+                            Em outras palavras, o pluralismo jurídico da época era uma expressão do pluralismo político
+                            reinante, ou seja, das disputas de poder entre o senhor feudal, o príncipe e a Igreja
+                            Católica.
+                        </p>
+                    </div>
+                    <div class=" mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_10.svg" style="width: 50%;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center ">
+                <div class="col-sm-12 container-text">
+                    <p>
+                        A modernidade ofereceu como alternativa política ao feudalismo uma concepção centralizada e
+                        unitária do poder. No Estado de Direito, sua versão acabada e mais plena, <u>Estado</u> e
+                        <u>Direito</u> amoldam-se reciprocamente ao ponto de confundirem-se.
+
+                    </p>
+                    <p>
+                        No entanto, a evolução de <b>Estado Absolutista</b> para o <b>Estado de Direito</b> demandou a
+                        inversão da relação entre Poder e Direito estabelecida no conceito de soberania: nele, é o poder
+                        que resulta da validade normativa.
+                    </p>
+                    <div class=" mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_11.svg">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="section" id="section4">
+            <div class="row justify-content-center ">
+                <div class="col-sm-12 container-text mt-5">
+                    <p>
+                        Assim, o poder estatal é determinado e deve ser exercido nos limites das normas jurídicas
+                        válidas, sendo definido como um feixe de competências prefixadas por essas mesmas normas
+                        jurídicas.
+                    </p>
+                    <div class="mt-5 mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_12.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center ">
+                <div class="col-sm-12 container-text mt-5">
+                    <p>
+                        Consolidar essa forma de organização política na história nunca foi – e nunca será – uma tarefa
+                        simples. Desde a "República" de Platão, a filosofia política tratou de alertar o pensamento
+                        ocidental sobre as artimanhas do poder. É da natureza do poder nunca parecer ser o que é. O
+                        poder se alcança e se exerce, via de regra, pela dissimulação e pela invisibilidade: saber
+                        dissimular é o saber dos Reis, alertava-nos o Cardeal Richelieu. Daí a importância crucial do
+                        <b>princípio da publicidade</b> na constituição do Estado de Direito, emprestando transparência
+                        e visibilidade aos atos do poder.
+                    </p>
+                    <p>
+                        Corretas essas premissas conceituais, podemos concluir que o Estado de Direito é um esforço
+                        racional de organização política segundo uma lógica estranha à natureza do poder (a lógica da
+                        visibilidade) e uma forma estranha à sua historicidade (a forma jurídico-normativa). Eis o
+                        grande desafio de implantar e garantir o Estado de Direito em sua plenitude: <b>reter o
+                            exercício do poder nos marcos da legalidade</b>.
+                    </p>
+                    <p>
+                        Ora, se o Estado de Direito resulta da juridificação do poder, é importante sublinhar que esse
+                        fenômeno implica não apenas a legalização do poder num leque de competências, mas também a
+                        constitucionalização da soberania interna, submetida ao epíteto juridicista do “poder
+                        constituinte”, seja na sua forma originária seja na derivada.
+                    </p>
+                    <div class=" mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_13.svg">
+                    </div>
+
+                    <p>
+                        A esse projeto político ajustava-se perfeitamente, no campo teorético, a instrumentalidade
+                        ordenadora dos sistemas conceituais subjacentes ao modelo de racionalidade epistêmica das
+                        ciências. Como suporte ao projeto de centralização do poder no Estado Moderno, os juristas
+                        construíram uma “Ciência do Direito”, passando a concebê-lo como um sistema estatal de normas
+                        jurídicas. Dotado de unidade, plenitude e coerência lógica interna, tal sistema de normas
+                        jurídicas gerais que se bastavam a si mesmas seria batizado pelo sugestivo epíteto de
+                        “ordenamento jurídico”. A partir dessa base comum, cada formação estatal que sucedeu na história
+                        demandou uma específica estratégia no campo do direito.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!--Página 2-->
+        <div id="section" id="section5">
+            <div class="row text-left justify-content-center">
+                <div class="col-sm-12 container-text mt-5 mb-5">
+                    <div class="mb-5">
+                        <h2>2 A EVOLUÇÃO DO DIREITO E DO ESTADO </h2>
+                    </div>
+                    <p>
+                        Neste momento, veremos a evolução do Direito e do Estado.
+                    </p>
+                    <div class="mt-5 mb-5">
+                        <h2>
+                            2.1 O ESTADO LIBERAL CLÁSSICO: CODIFICAÇÃO DO DIREITO E SISTEMA DE REGRAS ESPECÍFICAS
+                        </h2>
+                    </div>
+                    <p>
+                        Em sua origem, o pensamento liberal erigiu o “Estado-legislador”, um Estado mínimo e não
+                        intervencionista, que não se intrometia no campo da economia e da vida privada em geral,
+                        pairando sobre uma sociedade burguesa homogênea – apesar de dividida em classes sociais.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center container-2lines">
+                <div class="col-sm-6 mb-5">
+                    <div class=" mx-auto text-center ">
+                        <img style="width: 60%;" src="recursos/img/PRODISA_EDS_D1_RIM_14.svg">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <p>
+                        O Estado liberal disseminou a cultura do <b>positivismo legalista</b>, na qual os juristas
+                        adotaram uma postura metodológico-filosófica <b>cientificista</b>, na medida em que reduziram o
+                        direito aos conteúdos normativos da lei codificada, vinculando o intérprete de modo mais estrito
+                        possível, sob o fundamento de que a atividade de elaboração do direito, de cunho político, é
+                        atribuição exclusiva do legislador estadual. O berço dessa impostação jusmetodológica
+                        identifica-se com o <u>advento do Estado de Direito e dos códigos civil e penal</u>.
+                    </p>
+                    <p>
+                        O Estado Liberal almejava encerrar na lei ordinária toda a experiência jurídica, uma lei geral e
+                        abstrata, oriunda de amplos debates nas casas legislativas; uma lei codificada, feita para ser
+                        duradoura e com pretensões de exaurir a matéria regulamentada.
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div id="section" id="section6">
+            <div class="row text-left justify-content-center">
+                <div class="col-sm-12 container-text ">
+
+                    <p>
+                        Essa lei não casuística valeu-se da linguagem natural para a construção de seus enunciados
+                        normativos e, internamente, perseguiu a maior harmonia lógico-sistemática possível. Uma lei que
+                        pretendia oferecer aos juristas um sistema de normas jurídicas como dados objetivos, de modo a
+                        permitir a sua aplicação nos limites de um modelo judicial subsuntivo, inspirado na figura do
+                        silogismo judiciário. A essa lei deram o nome de código.
+                    </p>
+                    <div class="mb-3 mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_15.svg">
+                    </div>
+                    <p>
+                        Com um direito organizado em grandes códigos, pretendeu-se oferecer aos conflitos judicializados
+                        uma única solução normativa válida. Assim, o pensamento jurídico continental submeteu o ato
+                        decisório a um controle racional inspirado no modelo de inferência silogística.
+                    </p>
+
+                    <p>
+                        Com efeito, a norma jurídica geral é o critério pelo qual o sistema escolhe o problema: não
+                        sendo o conflito subsumível ao sistema normativo, constitui-se num falso problema jurídico, ou
+                        seja, um conflito não jurídico. De igual modo, nos conflitos que interessam ao direito, só são
+                        juridicamente relevantes os aspectos que se enquadram na norma geral. Toda a conflitividade
+                        transbordante ao esquema da lei não interessa à discussão judiciária do conflito.
+                    </p>
+
+                    <p>
+                        Dessa concepção de lei codificada emergia a figura de um juiz politicamente neutro, que atuava
+                        mediante atos de natureza meramente cognitiva, aplicando objetivamente o direito posto: um
+                        direito legislado sob a forma de sistema normativo aplicável por atos de conhecimento (atos
+                        técnicos) e não de vontade (atos políticos).
+                    </p>
+
+                    <p>
+                        Essa lei deveria encerrar objetivamente uma <em>ratio decidendi</em> colocada na anterioridade
+                        do ato jurídico-decisório, com um alcance vinculativo absoluto que garantiria, de um lado, a
+                        segurança jurídica dos cidadãos e, de outro, a separação radical entre as funções de elaboração
+                        (legislativa) e aplicação (judicial) do direito.
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div id="section" id="section7">
+            <div class="row text-left justify-content-center">
+                <div class="col-sm-12 container-text mt-5 mb-5">
+                    <div class="mb-5">
+                        <h2>2.2 A SOCIAL-DEMOCRACIA COMO ESTADO INTERVENTOR: DESCODIFICAÇÃO DO DIREITO E MULTIPLICAÇÃO
+                            INFLACIONÁRIA DAS LEIS </h2>
+                    </div>
+                    <p>
+                        Ao Estado liberal seguiu-se a social-democracia e seu Estado-administrador que, insatisfeito com
+                        a mera função de elaborar as regras gerais do “jogo social”, participou desse jogo de forma
+                        ativa e intervencionista, estendendo seus tentáculos sobre a economia e achatando os limites da
+                        iniciativa privada, buscando impor-se sobre o mercado regulador.
+                    </p>
+                    <div class="mb-4 mx-auto text-center">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_16.svg">
+                    </div>
+                    <p>
+                        Para cumprir esse novo papel, já não bastava ao Estado a estratégia de legislar por normas
+                        gerais e abstratas, desenvolvidas por meio de amplos debates parlamentares. Antes, a atividade
+                        legislativa deslocou-se para o âmbito do Poder Executivo, que passou a elaborar leis de
+                        gabinetes feitas por tecnocratas, com linguagem prolixa e altamente técnica. Enfim, leis de
+                        pouca publicidade e de parco alcance geral. Leis tipicamente casuísticas, feitas na sua grande
+                        maioria para administrar problemas imediatos da gestão da coisa pública, hipertrofiada em face
+                        do novo modelo de Estado.
+
+                    </p>
+
+                    <p>
+                        Assim, o Estado-providência deu ensejo ao fenômeno da <b>multiplicação inflacionária da base
+                            legal</b> da ordem jurídica e, como desdobramento, ao fenômeno da <b>descodificação do
+                            direito</b>, ambos provocando desprestígio crescente da lei. Como modelo, no entanto, a
+                        social-democracia exauriu-se, vencida por uma onda de globalização da economia e pelo
+                        encolhimento do Estado-administrador intervencionista. Foram as primeiras manifestações do
+                        neoliberalismo.
+                    </p>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div id="section" id="section8">
+            <div class="row text-left justify-content-center">
+                <div class="col-sm-12 container-text">
+                    <div class="mb-5">
+                        <h2>2.3 O ESTADO NEOLIBERAL E AS AGÊNCIAS REGULADORAS: A DESLEGALIZAÇÃO DO DIREITO</h2>
+                    </div>
+                    <p>
+                        Da social-democracia restou um Estado hipertrofiado e pesado, de manutenção cara e de difícil
+                        gestão, com efeitos negativos sobre a economia. Em resposta, gestou-se na história o <b>Estado
+                            neoliberal</b>, no qual se trabalhou o enxugamento dessa pesada máquina estatal concebida
+                        pela social-democracia para conduzir as políticas sociais, abrindo caminho para as privatizações
+                        das empresas públicas (<span class="text-detach">clique</span> nos pontos para ver as
+                        características do Estado Neoliberal).
+                    </p>
+                </div>
+            </div>
+            <div class="row text-left justify-content-start" style="align-items: center;">
+                <div class="col-sm-6 pl-5 mb-5">
+                    <div class="pl-5">
+                        <div class="scale-img ml-5">
+                            <img style="width: 50%;" src="recursos/img/PRODISA_EDS_D1_RIM_17.svg">
+                        </div>
+
+
+
+                        <div class="dot-imgs">
+                            <!-- Bola Azul -->
+                            <div class="dots-selected" id="dot1" style="left: 26.6%;top: 14.5%;">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_18.svg">
+                            </div>
+                            <!-- Box1 / Azul  -->
+                            <div id="box1" class="hide-dots" style="left: 36%;top: 11.5%;width: 60%;">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_23.svg">
+                            </div>
+                            <!-- Bola Laranja -->
+                            <div class="dots-selected" id="dot2" style="top: 21.2%;left: 40.5%;">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_19.svg">
+                            </div>
+                            <!-- Box2 / Laranja  -->
+                            <div id="box2" class="hide-dots" style="left: 47%;top: 20%;width: 60%;">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_24.svg">
+                            </div>
+                            <!-- Bola Verde -->
+                            <div class="dots-selected" id="dot3" style="top: 33.4%;left: 45.3%;">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_20.svg">
+                            </div>
+                            <!-- Box3 / Verde  -->
+                            <div id="box3" class="hide-dots" style="left: 50.6%;top: 31%;width: 60%;">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_25.svg">
+                            </div>
+                            <!-- Bola Roxa -->
+                            <div class="dots-selected" id="dot4" style="bottom: 50.5%;left: 39%;">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_21.svg">
+                            </div>
+                            <!-- Box4 / Roxo  -->
+                            <div id="box4" class="hide-dots" style="left: 45%;top: 43%;width: 60%;">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_26.svg">
+                            </div>
+                            <!-- Bola Ciano -->
+                            <div class="dots-selected" id="dot5" style="bottom: 358px;left: 27%;">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_22.svg">
+                            </div>
+                            <!-- Box5 / Roxo  -->
+                            <div id="box5" class="hide-dots" style="left: 33%;top: 52%;width: 60%;">
+                                <img src="recursos/img/PRODISA_EDS_D1_RIM_27.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-left justify-content-center">
+                <div class="col-sm-12 container-text mb-5">
+                    <p>
+                        Em contrapartida, como os direitos sociais ficariam expostos aos interesses do mercado,
+                        criaram-se as agências reguladoras como ferramentas de proteção. Essas agências tinham como
+                        função regular setores estratégicos do mercado por meio de <b>atos normativos</b>, ou seja,
+                        normas jurídicas resultantes do exercício de competências administrativas, e não legislativas.
+                        Tais atos normativos pelos quais se exerce o poder regulatório das agências <b>são atos
+                            administrativos e não leis</b>.
+
+
+                    </p>
+
+                    <p>
+                        Portanto, agravando o processo de desfiguração do direito pela <b>descodificação</b> promovida
+                        pela social-democracia, no Estado neoliberal a função de elaboração normativa, principalmente no
+                        que diz respeito às políticas públicas, refoge ao campo legislativo com a prática de atos
+                        normativos autônomos da administração, dando ensejo ao fenômeno da <b>deslegalização</b> do
+                        direito. Surge um poder administrativo com vocação legisladora.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Página 3-->
+        <div id="section" id="section9">
+            <div class="row text-left justify-content-center  mb-3">
+                <div class="col-sm-12 container-text">
+                    <div class="mb-5">
+                        <h2>3 CONSTITUCIONALIZAÇÃO DO DIREITO E A LUTA PELAS POLÍTICAS PÚBLICAS NO BRASIL </h2>
+                    </div>
+                    <p>
+                        Essa evolução histórica das formas do Estado e do Direito deu ensejo a um processo lento de
+                        <b>constitucionalização do direito</b>, fazendo surgir uma nova forma estatal: o <b>Estado
+                            Constitucional de direito</b>.
+                    </p>
+
+                    <div class="mb-3 mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_28.svg">
+                    </div>
+
+                    <p>
+                        Decorre desse deslocamento de funções o esforço atual em imprimir <b>força normativa</b> ao
+                        texto
+                        constitucional. Com isso, pretende-se opor os direitos fundamentais – historicamente positivados
+                        nas
+                        constituições – à onda neoliberal que assola a economia mundial e que consiste em transmudações
+                        globalizantes de um capitalismo que se mostra tão concentrado na ocupação de mercados emergentes
+                        quanto insensível às necessidades básicas do ser humano.
+
+                    </p>
+
+                    <p>
+                        O papel do direito em cada uma das formações do Estado ao longo da história, a toda evidência, é
+                        significativamente diverso. As transformações do Estado e da economia provocam mutações radicais
+                        nas
+                        práticas político-administrativas e nas estratégias normativas e jurisdicionais. Ao ímpeto
+                        codificador e universalizante dos umbrais da modernidade, seguiu-se um processo de proliferação
+                        legislativa que estimulou a dessacralização dos diplomas legais sistemáticos, universais e de
+                        alcance geral, provocando a decadência do modelo subsuntivo de aplicação do direito.
+                    </p>
+
+                    <p>
+                        No Brasil atual, vivemos um avançado processo de descodificação do direito e de multiplicação
+                        inflacionária dos textos legais. Soma-se a isso o crescimento de um imenso corpo de normas
+                        jurídicas
+                        infralegais: os atos normativos decorrentes do exercício do poder regulador das políticas
+                        públicas
+                        constitucionalizadas. À decadência da “lei codificada” sobrepõe-se uma nova ordem jurídica
+                        brasileira inflacionada pelo excesso de leis e atos normativos, fragmentada e difusa, em que o
+                        “mínimo sistemático” é garantido pela função harmonizadora cumprida por uma rede de princípios
+                        insculpidos na Constituição Federal.
+                    </p>
+
+                    <p>
+                        É certo que os princípios emprestam alguma sistematicidade ao direito infraconstitucional
+                        descodificado, uma sensação de unidade pairando sobre diversidade profusa das normas do direito
+                        atual. No entanto, o recurso aos princípios constitucionais não se mostra suficiente para
+                        impedir a
+                        crescente onda de ativismo judicial no Brasil, pois nessa nova forma de organização do direito
+                        resta
+                        comprometido um dos mais importantes princípios de uma ordem jurídica positivada, cuja função
+                        primordial é garantir o equilíbrio e a separação dos poderes: o <b>princípio da unidade
+                            normativa</b>.
+                    </p>
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div id="section" id="section10">
+            <div class="row text-left justify-content-center  mb-3">
+                <div class="col-sm-12 container-text">
+
+                    <div class="mb-3 mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_29.svg">
+                    </div>
+
+                    <p>
+                        As normas da constituição deixam de ser vistas como meros enfeites de um pacto político e,
+                        tomadas
+                        efetivamente como direito, passam a ser objeto de aplicação pela via jurisdicional. No entanto,
+                        é de
+                        se observar que o advento da jurisdição constitucional e a perda generalizada de unidade
+                        normativa
+                        no ordenamento jurídico brasileiro resultam no agigantamento do ativismo judicial, deslocando o
+                        ponto de equilíbrio da tripartição dos poderes e provocando ferrenhas disputas entre Executivo,
+                        Legislativo e Judiciário, amplamente testemunhadas nos dias de hoje.
+                    </p>
+
+                    <p>
+                        Um dos subprodutos mais manifestos desses novos desarranjos na formação do Estado é a crescente
+                        judicialização das políticas públicas, dentre elas a política de saúde. A <b>judicialização
+                            desenfreada</b> da saúde deixa entrever um atropelo das competências administrativas dos
+                        gestores pelo Poder Judiciário, tornando a política cada vez mais caótica e ingovernável.
+                    </p>
+
+                    <div class="mb-5">
+                        <h2>4 ESTADO DE DIREITO E SISTEMA NORMATIVO: DOIS PRINCÍPIOS ESTRUTURANTES DA SEPARAÇÃO DOS
+                            PODERES
+                        </h2>
+                    </div>
+                    <p>
+                        Num direito organizado sob a forma de sistema, a complexidade e a extensão dos temas tratados
+                        pelas
+                        normas jurídicas se equilibram sobre uma rede axiológica própria, constituída por princípios
+                        estruturantes fundamentais tanto para orientar a sua elaboração pela via legislativa quanto para
+                        o
+                        exercício do pensamento decisório que anima a sua aplicação pela via judicial. Dentre eles,
+                        destacamos estes dois:
+                    </p>
+
+                    <div class="mb-3 mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_30.svg">
+                    </div>
+
+                    <p>
+                        Essas duas ideias retoras do direito se manifestam no campo da elaboração legislativa, para que
+                        as
+                        leis possam efetivamente emprestar ordem às relações sociais. Evidenciam-se, de igual modo, por
+                        sua
+                        capacidade instrumental de impor os limites necessários às práticas sensíveis de se aplicar
+                        normas
+                        coativas a condutas alheias para se garantir a segurança jurídica dos cidadãos.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--Página 5-->
+        <div id="section" id="section11">
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col-sm-12 container-text  ">
+                    <div class="mb-5">
+                        <h2>5 O AXIOMA ONTOLÓGICO DO DIREITO E OS LIMITES DAS FUNÇÕES JUDICIAIS: VOLUNTARISMO E
+                            CRIACIONISMO
+                            JUDICIAL DO DIREITO </h2>
+                    </div>
+                    <p>
+                        As normas jurídicas se traduzem em imperativos hipotéticos.
+                    </p>
+
+                    <div class="mb-5 mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_31.svg">
+                    </div>
+
+                    <p>
+                        Essa definição oferecida pela jurisprudência da valoração no clássico “Introdução ao pensamento
+                        jurídico”, de Karl Engisch, deixa transparecer uma dimensão psicológica inerente aos comandos
+                        normativos: eles só ocorrem dentro de relações de hierarquia.
+
+                    </p>
+                    <p>
+                        Os comandos oriundos da soberania estatal se dirigem, em grande medida, aos cidadãos comuns.
+                        Dessarte, em face da imensa desigualdade hierárquica entre as partes, o poder de mando estatal e
+                        seu
+                        respectivo controle devem ter limites rigorosamente definidos. É preciso vincar a fronteira
+                        entre o
+                        proibido e o permitido.
+                    </p>
+
+                    <div class="mb-4 mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_32.svg">
+                    </div>
+
+                    <p>
+                        Ao tomar decisões judiciais criando proibições que não existem no sistema normativo, o
+                        estado-juiz
+                        invade o campo das liberdades, ofendendo o direito posto. O direito deve ser mantido, o tanto
+                        quanto
+                        possível, como uma intersecção de proibições claras e destacadas na linha infinita das
+                        liberdades
+                        humanas.
+                    </p>
+
+                    <p>
+                        Esse desenho lógico-normativo oferecido pelo axioma ontológico do direito, fundamental por
+                        estabelecer marcos que impõem limites às práticas jurídicas e de controle, toma outros contornos
+                        no
+                        âmbito do direito público: os poderes constituídos só podem fazer o que lhes é legalmente
+                        permitido,
+                        a estrutura do Estado se organiza assim mediante um sistema de competências.
+                    </p>
+
+                    <p>
+                        A racionalização do exercício do poder pela tripartição de suas funções essenciais exigia, entre
+                        outras coisas, não mais que se confundissem sob o manto de uma mesma autoridade os atos de
+                        elaboração e aplicação do direito. A decisão judicial fundamentada na lei limitar-se-ia, nesses
+                        moldes, ao exercício de mera cognição, garantindo-lhe uma natureza exclusivamente técnica,
+                        enquanto
+                        a elaboração legislativa do direito estaria calçada em atos de natureza política.
+                    </p>
+
+                    <p>
+                        A modernidade pretendeu fulminar o poder decisório da magistratura em máximas, como a da
+                        proibição
+                        de interpretação do Código de Napoleão, pela qual o juiz francês não passaria de uma simples
+                        <span class="tooltip-1" data-toggle="tooltip" data-placement="bottom"
+                            title="MONTESQUIEU, A. Do espírito das leis. 2. ed. São Paulo: Abril Cultural, 1979. p. 152. Livro XI, Capítulo VI.">
+                            <span><img src="recursos/img/PRODISA_EDS_D1_RIM_27_mouseclique.svg"
+                                    style="width: 1.5%;"></span>“boca da lei”</span>. Surge a figura do juiz racional,
+                        sustentada pelos positivistas. Assim, o direito passou a ser, de um lado, o produto resultante
+                        da
+                        atividade política do Poder Legislativo e, de outro, o limite do poder decisório judicial. Ao
+                        fim e
+                        ao cabo, buscou-se oferecer um critério objetivo e apriorístico de definição jurídica dos
+                        direitos
+                        tuteláveis pelo Estado, o que corresponde à ideia fundamental de segurança jurídica.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Página 6-->
+        <div id="section" id="section12">
+            <div class="row justify-content-center mt-5">
+                <div class="col-sm-12 container-text  ">
+                    <div class="mb-5">
+                        <h2>6 PRINCÍPIOS DA UNIDADE NORMATIVA E TRIPARTIÇÃO DO PODER: CRISE DO SISTEMA E DA VINCULAÇÃO E
+                            ATIVISMO JUDICIAL </h2>
+                    </div>
+                    <p>
+                        Os conceitos de unidade normativa e de coerência interna das normas se implicam mutuamente:
+                        <span class="tooltip-1" data-toggle="tooltip" data-placement="bottom"
+                            title="A totalidade é uma unidade complexa, ou seja, composta por partes. Por isso mesmo, pressupõe uma fundamentação unitária, um fundamento que organize a pluralidade das partes como uma unidade. A fundamentação unitária da ordem normativa é de natureza teleológica: produzir ordem social. Ora, é a finalidade unitária da produção da ordem social que impõe a coerência das normas entre si, compondo o ordenamento jurídico como um todo. Coerência e unidade, portanto, são duas faces da mesma moeda. Por último, observemos que a razão científica é uma razão analítica justamente porque toma o objeto a ser teorizado como uma totalidade. Isso permite que ela opere por movimentos de análise (decomposição e estudo das partes) e de síntese (recomposição da unidade).">
+                            <span><img src="recursos/img/PRODISA_EDS_D1_RIM_27_mouseclique.svg"
+                                    style="width: 1.5%;"></span>
+                            se há unidade normativa é porque há coerência entre as normas, e vice-versa</span>. Essas
+                        duas
+                        noções estruturantes emprestam “ordem” às normas jurídicas, dispondo-as sob a forma lógica de
+                        uma
+                        totalidade chamada “ordenamento jurídico”.
+                    </p>
+
+                    <p>
+                        A unidade normativa perfaz um dos mais importantes princípios jurídicos do Estado de Direito,
+                        tornando viável o controle racional do poder estatal pela tripartição de suas funções: ela impõe
+                        ao
+                        direito a forma sistêmica de organização.
+                    </p>
+                    <p>
+                        Sem sombra de dúvida, não se vincula um juiz a um catálogo de normas, vincula-se a um sistema
+                        normativo. E a ausência de vinculação produz um efeito dominó catastrófico:
+                    </p>
+
+                    <div class="mb-5 mx-auto text-center">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_33.gif" style="width: 80%;">
+                    </div>
+
+                    <p>
+                        Para além dessa perspectiva estruturante do Estado de Direito, o princípio da unidade normativa
+                        também cumpre objetivos funcionais. Ao impor às normas jurídicas uma organização sistêmica,
+                        permite
+                        ao complexo de comandos estatais cumprir a relevante função ordenadora do corpo social. Duas
+                        ordens
+                        divergentes não coabitam o mesmo espaço ao mesmo tempo: uma é desordem em relação à outra.
+                    </p>
+
+                    <div class="mb-4 mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_34.svg">
+                    </div>
+
+                    <p>
+                        A complexidade crescente da sociedade tem provocado uma multiplicação exponencial das normas
+                        jurídicas, transformando o direito num extenso e desordenado labirinto de leis esparsas e atos
+                        normativos, por vezes redigidos entre paredes pela burocracia estatal veiculando interesses
+                        casuísticos, sem o menor compromisso com o princípio da unidade normativa.
+                    </p>
+
+                    <p>
+                        O direito perde consistência e força de vinculação, dando azo a toda forma de voluntarismos e
+                        ativismos no exercício dos poderes públicos, em especial ao de aplicar suas normas e ao de
+                        fiscalizar a efetividade delas. Não há como vincular as práticas judiciais a um direito que já
+                        não
+                        mais se manifesta sob a forma de sistema.
+                    </p>
+
+                    <p>
+                        Do ponto de vista lógico-normativo, o sistema legal determina em que medida um conflito é
+                        jurídico
+                        ou não, definindo seus contornos e encaminhando uma única resposta judicial possível. Não se
+                        ignora,
+                        a textura aberta da linguagem flexibiliza substancialmente tais limites lógicos. As imprecisões
+                        dos
+                        limites semânticos da linguagem da lei tornam ainda mais grave a desatenção à necessidade
+                        imperiosa
+                        e permanente de se emprestar a máxima unidade normativa possível aos comandos legais e
+                        infralegais
+                        do Estado.
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="section" id="section13">
+            <div class="row justify-content-center mt-5">
+                <div class="col-sm-12 container-text  ">
+                    <p>
+                        Um direito irresponsavelmente assistemático assume a condição de catálogo ao oferecer um leque
+                        de
+                        opções normativas ao aplicador e ao controlador, inviabilizando a vinculação e descumprindo as
+                        demandas de segurança jurídica e de ordem nas atividades do Estado e nas relações sociais.
+                    </p>
+
+                    <p>
+                        Como sintoma dessa perda de sistematicidade, que também decorre da crescente complexidade das
+                        relações sociais, os campos de indefinição normativa se agigantam transformando-se em imensas
+                        zonas
+                        gris, onde se multiplicam desarmonias entre os poderes constituídos, conflitos e divergências
+                        entre
+                        os órgãos públicos quanto aos limites das competências e atribuições de cada um e, em especial,
+                        entre os múltiplos operadores que fazem funcionar o sistema judicial. Como resultado, o Estado
+                        se
+                        desorganiza e a cidadania se desqualifica.
+
+                    </p>
+
+                    <div class="mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D1_RIM_35.svg">
+                    </div>
+
+                    <p>
+                        Como resultado, o direito sanitário infralegal se desenvolve como um imenso catálogo de
+                        portarias
+                        sem a menor coerência interna. Um cipoal assistemático de normas que não oferecem respostas
+                        claras e
+                        sistêmicas aos aplicadores do direito. Compromete-se, assim, a vinculação da magistratura que,
+                        por
+                        sua vez, enfrenta uma onda cada vez mais tsunâmica de ações judiciais no campo da saúde.
+                    </p>
+
+                    <p>
+                        Além de fomentar a desestruturante e crescente judicialização da política sanitária, esse cipoal
+                        caótico e desordenado de portarias decorrente do desprezo ao princípio da unidade normativa abre
+                        espaço para o ativismo judicial, seara na qual o Poder Judiciário acaba assumindo o exercício de
+                        um
+                        poder regulatório que, na estrutura constitucional, compete exclusivamente ao Executivo, mais
+                        especificamente ao gestor da saúde.
+
+                    </p>
+
+                    <p>
+                        Portanto, retomar a consciência da importância do respeito à unidade normativa na elaboração do
+                        Direito para a superação dos conflitos e desarranjos entre os poderes públicos é um dos grandes
+                        desafios do pensamento político e do constitucionalismo na presente década, em busca da
+                        evolução, do
+                        reequilíbrio e do aprimoramento das formas do Estado.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Página 2-->
+        <div id="section" id="section14">
+            <div class="row text-left justify-content-center">
+                <div class="col-sm-12 container-text mt-5 mb-5">
+                    <div class="mb-5">
+                        <h2>2 A PASSAGEM DA DOGMÁTICA À CONSTRUÇÃO JURÍDICA</h2>
+                    </div>
+                    <p>
+                        Neste segundo ponto sobre a passagem da dogmática à construção jurídica, Losano (2008)
+                        ensina
+                        que <b>dogma</b> remete a um elemento conceitual que desempenha específicas tarefas no
+                        <b>pensamento
+                            teológico</b>.
+                    </p>
+                    <div class=" mt-5 mb-5 mx-auto text-center img-current">
+                        <img style="width: 60%;" src="recursos/img/PRODISA_EDS_D2_RIM_12.svg">
+                    </div>
+                    <p>
+                        Especificamente em relação à <b>dogmática jurídica</b>, Losano (2008) sustenta que se deve
+                        estritamente observar o elemento interpretado como ponto de partida e a respectiva
+                        indiscutibilidade da base fulcral contida na interpretação do Direito: a <b>norma
+                            jurídica</b>.
+                        Sem
+                        esta, a atividade teleológica – e não teológica! – do jurista não faria qualquer sentido.
+                    </p>
+                    <p>
+                        O <em>modus operandi</em> do <b>jurista</b>, na praticidade de seu cotidiano, devia se
+                        mover,
+                        portanto, entre dois limites intransponíveis:
+                    </p>
+                    <div class="mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D2_RIM_13.svg">
+                    </div>
+                    <p>
+                        O ponto de partida é a norma jurídica como dogma que auxiliaria na resolução do caso
+                        concreto,
+                        este como um ponto de chegada.
+                    </p>
+                    <p>
+                        Em um segundo momento, com a <b>construção jurídica</b>, passa-se à fase criativa da
+                        atividade
+                        do jurista, sem se prender a dogmas, ou seja, <b>sem se prender à intepretação formal e
+                            obtusa
+                            da norma jurídica</b>.
+                    </p>
+                    <p>
+                        O conceito de <b>construção jurídica</b> pode ser evidenciado por Jhering (2001), definido
+                        como
+                        <b>qualquer atividade que tenha por objeto a estrutura de um corpo jurídico</b>. Esse
+                        jurista
+                        alemão
+                        também desenvolve três leis que regem a construção jurídica dessa mesma estrutura:
+                    </p>
+                    <div class="mt-5 mb-5 mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D2_RIM_14_animacao.gif">
+                    </div>
+                    <p>
+                        Desse modo, Jhering (2001) sintetiza que o direito plasmado pela construção normativa teria
+                        o
+                        sistema como a forma mais benéfica para a matéria positivamente constituída e que o mesmo
+                        sistema não deixaria de ser a fonte de nova matéria. É importante ressaltar que, neste
+                        momento,
+                        <b>a criatividade do jurista faria parte da positivação normativa, impondo-se aos
+                            dogmas</b>.
+                        Assim, houve a passagem histórica da dogmática à construção jurídica, em uma interpretação
+                        mais
+                        criativa da norma jurídica.
+                    </p>
+                    <p>
+                        Percebemos, por fim, que a passagem da dogmática à construção jurídica apresenta um diálogo
+                        efetivo com o primeiro ponto sobre sistema e estrutura do Direito, realçando uma incipiente
+                        ciência do Direito. Também veremos que esse debate inicial serve como introito às discussões
+                        sobre direito natural e positivismo jurídico.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Página 3-->
+        <div id="section" id="section15">
+            <div class="row text-left justify-content-center  mb-3">
+                <div class="col-sm-12 container-text">
+                    <div class="mb-5">
+                        <h2>3 O DIREITO NATURAL, O POSITIVISMO JURÍDICO E O PÓS-POSITIVISMO</h2>
+                    </div>
+                    <div class="mb-5">
+                        <p>
+                            Vamos estudar um pouco mais sobre essas escolas teóricas adiante.
+                        </p>
+                    </div>
+                    <div class="mb-5">
+                        <h2>3.1 O DIREITO NATURAL</h2>
+                    </div>
+                    <p>
+                        Segundo Bedin (2014), o <b>direito natural</b> ou jusnaturalismo iniciou-se na Grécia
+                        Antiga,
+                        sendo relevante até o final do século XVIII, representava um <b>direito ideal</b> que
+                        condicionaria validade de acordo com as seguintes características (<span
+                            class="text-detach">clique</span> nos números):
+                    </p>
+                    <div class="mt-5 mb-5 mx-auto text-center">
+                        <div>
+                            <h2>DIREITO NATURAL</h2>
+                        </div>
+                        <div class="box-main item-layout ">
+                            <div class="mainSelected" id="n1">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_16.svg">
+                            </div>
+                            <div id="txt1" id class="hide-op">
+                                <p>
+                                    A legislação deveria ser interpretada/efetivada a partir de <b>normas e
+                                        princípios
+                                        em um plano superior</b>.
+                                </p>
+                            </div>
+                            <div class="mainSelected" id="n2">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_17.svg">
+                            </div>
+                            <div id="txt2" class="hide-op">
+                                <p>
+                                    A fonte seria um <b>ideal de justiça</b>, ou seja, uma categoria universal e
+                                    imutável.
+                                </p>
+                            </div>
+                            <div class="mainSelected" id="n3">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_18.svg">
+                            </div>
+
+                            <div id="txt3" class="hide-op">
+                                <p>
+                                    Tanto o plano superior quanto o ideal de justiça (direito ideal) <b>deveriam
+                                        prevalecer sobre as disposições formais da legislação</b>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col-sm-12 container-text  ">
+                    <p>
+                        Bedin (2014) relata <b>três influências</b> sobre o direito natural (ou jusnaturalismo):
+                        <b>natureza em si, Deus</b> e <b>natureza humana</b>, respectivamente, Direito Natural
+                        Cosmológico, Direito Natural Teológico e Direito Natural Antropológico.
+                    </p>
+                    <div class="mt-5 mx-auto text-center ">
+                        <img width="70%" src="recursos/img/PRODISA_EDS_D2_RIM_19.svg">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div id="section" id="section16">
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-sm-12 container-text  ">
+                    <div class="row justify-content-center mt-5 mb-5">
+                        <div class="col-sm-12 container-text  ">
+                            <p>
+                                Portanto, depois da descrição dessas três características/influências que formaram no
+                                decorrer
+                                da história o que conhecemos como direito natural, entramos em uma nova fase do direito
+                                com
+                                o
+                                assim denominado positivismo jurídico, com a tarefa de contrapor-se a esse
+                                jusnaturalismo.
+                            </p>
+                            <div class="mt-5 mb-5 mx-auto text-center img-current">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_20.svg">
+                            </div>
+
+                            <div class="mt-10 mb-5 mx-auto text-center img-current">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_21.svg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center mt-5 mb-5">
+                        <div class="col-sm-12 container-text">
+                            <div class="mb-5">
+                                <h2>3.2 O POSITIVISMO JURÍDICO</h2>
+                            </div>
+                            <p>
+                                Manifestando-se com base na ineficácia do idealismo principiológico e na recusa em
+                                incluir
+                                juízos de valor no raciocínio jurídico é que se forma, no início do século XX, o
+                                <b>positivismo
+                                    jurídico</b>. Teoria essa em explícito contraponto ao direito natural.
+                            </p>
+                            <p>
+                                O principal nome do positivismo jurídico é <b>Hans Kelsen</b>, que formulou a <b>Teoria
+                                    Pura
+                                    do
+                                    Direito</b>, com o objetivo de delimitar o campo do conhecimento jurídico à
+                                possibilidade
+                                descritiva e de conhecimento do sistema normativo. A partir dessa análise normativa, o
+                                <b>Direito
+                                    posto (norma) seria o objeto científico</b> sobre o qual o jurista deveria se
+                                debruçar.
+                            </p>
+                            <div class="mt-5 mb-5 mx-auto text-center">
+                                <p class="small">Figura 1. Hans Kelsen.</p>
+                                <img style="width: 60%;" src="recursos/img/PRODISA_EDS_D2_RIM_22.png">
+                                <p class="small mt-3">Fonte: <a
+                                        href="https://estadodaarte.estadao.com.br/streck-positivismo-kelseniano/."
+                                        target="_blank">https://estadodaarte.estadao.com.br/streck-positivismo-kelseniano/</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!--Página 4-->
+        <div id="section" id="section17">
+            <div class="row justify-content-center mt-5">
+                <div class="col-sm-12 container-text  ">
+
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12 container-text  ">
+                            <p>
+                                Kelsen (2009) concebe o positivismo jurídico de modo “puro”, esvaziando os elementos
+                                metafísicos
+                                e idealistas sobre a natureza do Direito. Na visão de Kelsen (2009), ratificada por
+                                Losano
+                                (2010), há três características fundamentais do positivismo jurídico:
+                            </p>
+                            <div class=" mx-auto text-center img-current">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_23.svg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-sm-12 container-text  ">
+                            <p>
+                                Na visão de Kelsen, o Direito deveria ser independente e autônomo em relação às outras
+                                ciências,
+                                como a Sociologia, Economia, Política etc. Estas poderiam servir até como ciências
+                                auxiliares,
+                                mas o Direito deveria se constituir como uma ciência pura, soberana, sem se “contagiar”
+                                por
+                                esses outros ramos da realidade.
+                            </p>
+                            <p>
+                                Dessa forma, o positivismo jurídico contém uma validade consubstanciada em força
+                                obrigatória:
+                                <b>suas normas devem ser incondicionalmente obedecidas pelas autoridades públicas e por
+                                    todos os
+                                    cidadãos, independentemente de seu conteúdo</b>. Sendo assim, não caberia ao jurista
+                                formular
+                                qualquer juízo de valor acerca do Direito. Se a norma fosse válida, deveria ser aplicada
+                                sem
+                                questionamentos (MARMELSTEIN, 2019).
+                            </p>
+                            <p>
+                                Logo no início da clássica obra “Teoria Pura do Direito”, Kelsen define o que seria sua
+                                proposta
+                                de positivismo jurídico:
+                            </p>
+                            <div class=" text-center img-current">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_24.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="section" id="section18">
+            <div class="row justify-content-center mt-5">
+                <div class="col-sm-12 container-text  ">
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-sm-12 container-text  ">
+                            <div class="mb-5">
+                                <h2>3.3 O PÓS-POSITIVISMO JURÍDICO</h2>
+                            </div>
+                            <p>
+                                O positivismo jurídico foi deturpado como justificativa normativa dos regimes
+                                totalitários
+                                do
+                                século XX (nazismo, fascismo e comunismo), caindo em descrédito perante o mundo do
+                                Direito e
+                                abrindo as portas para entrada de uma nova teoria: o <b>pós-positivismo jurídico</b>. Um
+                                detalhe
+                                importante: apesar de algumas críticas ao excessivo apego à norma, Kelsen continuaria
+                                como
+                                grande referência e inspiração.
+                            </p>
+                            <p>
+                                Segundo Marmelstein (2019), o principal objetivo do pós-positivismo – e muito em
+                                decorrência
+                                do
+                                desastre perpetrado pelos totalitarismos – seria a <b>proteção da dignidade humana</b>,
+                                devendo
+                                haver
+                                um considerável <b>conteúdo humanitário na normatização positivada</b>.
+                            </p>
+                            <p>
+                                Bonavides (2020) complementa esse viés afirmando que não somente a lei teria
+                                preponderância,
+                                mas
+                                também os <b>valores e princípios</b> que, em sua visão, constituiriam um pedestal
+                                normativo
+                                sobre o
+                                qual assentaria todo o edifício jurídico dos novos sistemas constitucionais a serem
+                                refeitos.
+                            </p>
+                            <p>
+                                Dessarte, no pós-positivismo, <b>a norma continuaria a ser a maior estrela da
+                                    constelação
+                                    jurídica</b>.
+                                E Kelsen preservaria sua importância no sentido de revigorar a força normativa dos
+                                direitos
+                                fundamentais. Haveria destaque, portanto, para a <b>normatização dos princípios
+                                    jurídicos</b>,
+                                tal como
+                                a já mencionada dignidade da pessoa humana, além da igualdade, da autonomia da vontade,
+                                da
+                                liberdade de expressão, da democracia etc., reconhecendo-se, finalmente, <b>a força,
+                                    eficácia e
+                                    concretude jurídico-normativa dos princípios</b>, base celular do Estado Democrático
+                                de
+                                Direito.
+                            </p>
+                            <p>
+                                Assim, resumimos as principais características do pós-positivismo como as seguintes:
+                            </p>
+                            <div class="mt-5 mb-5 mx-auto text-center img-current">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_25.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-5 mb-5">
+                        <div class="col-sm-12 container-text  ">
+                            <p>
+                                As constituições das repúblicas pós-guerra – formadas principalmente na segunda metade
+                                do
+                                século
+                                XX – foram influenciadas pelo pós-positivismo, enunciando princípios e regras como
+                                normas
+                                eficazmente válidas e apresentando como primado fulcral a dignidade da pessoa humana. É
+                                o
+                                caso
+                                da nossa Constituição da República Federativa do Brasil, promulgada em 5 de outubro de
+                                1988
+                                e
+                                vigente até os dias atuais como baluarte em defesa do Estado Democrático e Social de
+                                Direito.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="section" id="section19">
+            <div class="row justify-content-center mt-5">
+                <div class="col-sm-12 container-text  ">
+                    <div class="mb-5">
+                        <h2>
+                            4 A FUNÇÃO E GÊNESE DA NORMA JURÍDICA: A IMPORTÂNCIA DA CONSTITUIÇÃO E DA NORMA
+                            FUNDAMENTAL
+                            KELSENIANA
+                        </h2>
+                    </div>
+                    <p>
+                        Depois de enunciarmos uma linha evolutiva da ciência do Direito subsumida em conceitos como
+                        estrutura e sistema, doutrinas como o direito natural, o positivismo e o pós-positivismo,
+                        descreveremos nesta parte a função e gênese da norma jurídica, realçando ainda mais o
+                        pensamento
+                        do clássico Hans Kelsen.
+                    </p>
+                    <p>
+                        Como já anteriormente citado, Kelsen foi um dos maiores teóricos da ciência jurídica,
+                        responsável por uma <b>Teoria Pura do Direito</b>, objetivando uma sistematização científica
+                        por
+                        meio
+                        de seu <b>escalonamento hierárquico de normas jurídicas</b> – a assim denominada “pirâmide
+                        kelseniana”.
+                    </p>
+                    <p>
+                        O nome desse jurista austríaco está acima de qualquer polêmica juspolítica e é utilizado não
+                        somente pelos defensores do positivismo, mas também pelos adeptos das inovações e
+                        atualidades
+                        demonstradas pela escola do pós-positivismo.
+                    </p>
+                    <p>
+                        Na sua obra principal, “Teoria Pura do Direito”, a validade do direito positivo é explicada
+                        por
+                        meio de uma <b>estrutura piramidal de escalonamento hierárquico na qual as normas de nível
+                            inferior
+                            recebem a sua validade das normas superiores, e assim sucessivamente</b>. Como exemplo
+                        atualizado,
+                        apenas para ilustrar o entendimento:
+                    </p>
+                    <div class="mt-5 mb-5 mx-auto text-center img-current">
+                        <p class="small">Figura 2. Pirâmide de Kelsen.</p>
+                        <img src="recursos/img/PRODISA_EDS_D2_RIM_26_animacao.gif">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col-sm-12 container-text  ">
+                    <p>
+                        Veja que as resoluções e portarias estão na base ou piso da pirâmide e <b>seguem uma ordem
+                            de
+                            validação superposta até o respectivo topo hierárquico</b>: decretos, leis ordinárias,
+                        medidas
+                        provisórias e tratados, leis complementares, emendas constitucionais. Por fim, todas essas
+                        normas recebem sua validação pelo documento jurídico mais importante do escalonamento: a
+                        <b>Constituição Federal</b>.
+                    </p>
+                    <p>
+                        Portanto, <b>a norma positiva mais elevada e importante da pirâmide kelseniana é a
+                            Constituição</b>,
+                        que incrivelmente também não deixa de receber sua validade pela, assim denominada por Kelsen
+                        (2009), “<b>norma fundamental hipotética</b>”, que está no topo do topo da pirâmide.
+                    </p>
+                    <p>
+                        Essa norma fundamental hipotética kelseniana fornece validade não somente para o corpo
+                        normativo
+                        principal (a Constituição), mas para todo o sistema e estrutura do Direito construído da
+                        base ao
+                        topo da pirâmide.
+                    </p>
+                    <p>
+                        Losano (2010) conceitua a norma fundamental, elemento basilar para o entendimento da
+                        pirâmide
+                        kelseniana, da seguinte forma:
+                    </p>
+                    <div class="mt-5 mb-5 mx-auto text-center img-current">
+                        <img src="recursos/img/PRODISA_EDS_D2_RIM_27.svg">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!--Página 5-->
+        <div id="section" id="section20">
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col-sm-12 container-text  ">
+                    <div class="row justify-content-center mt-5 mb-5">
+                        <div class="col-sm-12 container-text  ">
+                            <p>
+                                A concepção de Kelsen na formulação da pirâmide normativa parte do pressuposto de que,
+                                <b>para
+                                    uma
+                                    norma existir e ser válida, é necessário um respaldo nas normas superiores</b>, que
+                                facultem
+                                ao
+                                legislador, então, produzir as normas inferiores. Das normas superiores, abre-se o campo
+                                lógico
+                                de validade das normas inferiores, mas a criação da norma, ainda assim, é um ato de
+                                vontade,
+                                que
+                                se abre aos impulsos reais da imbricação do direito com a totalidade social.
+                            </p>
+                            <p>
+                                De acordo com Carvalho (2012, p. 76):
+                            </p>
+                            <div class="mt-5 mx-auto text-center img-current">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_28.svg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center mt-5 mb-5">
+                        <div class="col-sm-12 container-text  ">
+                            <p>
+                                Outro ponto importante sobre a pirâmide normativa é que Kelsen <b>compreende a
+                                    pluralidade
+                                    das
+                                    normas jurídicas em termos de um ordenamento</b>, o que acarreta, necessariamente, a
+                                questão
+                                de sua
+                                coerência como um sistema e estrutura do Direito. Ou seja, as normas jurídicas são
+                                plurais e
+                                abundantes dentro de um Estado, muitas vezes até mesmo contraditórias. No entanto, para
+                                Kelsen,
+                                <b>a ciência do Direito somente pode ser pensada a partir de uma construção escalonada
+                                    do
+                                    ordenamento jurídico, que estabelece patamares tendo por base a hierarquia das
+                                    normas</b>.
+                            </p>
+                            <p>
+                                O sistema e a estrutura do ordenamento jurídico kelseniano se concretizam, ainda, por
+                                meio
+                                da
+                                validade das normas. A validade é a qualidade da norma que revela sua adequação formal e
+                                material ao ordenamento. <b>Uma norma só é válida porque normas hierarquicamente
+                                    superiores
+                                    lhe
+                                    dão
+                                    esse manto</b>. Não é no mesmo patamar que se vislumbra a validade de uma norma:
+                                devem-se
+                                observar
+                                os escalões superiores para identificar a validade de uma norma inferior (LOSANO, 2010;
+                                MASCARO,
+                                2010).
+                            </p>
+                            <p>
+                                Em nosso país, por exemplo, podemos afirmar que existe relação hierárquica entre a
+                                Constituição
+                                Federal e as Constituições Estaduais e Leis Orgânicas Municipais. Nesse caso, a
+                                Constituição
+                                Federal situa-se em um plano superior em relação a todas as demais. Por sua vez, a
+                                Constituição
+                                Estadual está situada de forma superior à Lei Orgânica Municipal, e a Lei Orgânica do
+                                Distrito
+                                Federal é equiparada à Constituição Estadual. Portanto, nenhuma norma do ordenamento
+                                pode se
+                                opor à Constituição Federal, sendo esta a Lei Maior de nossa nação.
+                            </p>
+                            <div class="col-sm-4 mb-5 mx-auto text-center container-text">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_29.svg">
+                            </div>
+                            <p>
+                                A importância da norma fundamental hipotética elaborada pelo gênio de Kelsen responde à
+                                indagação de como se sustenta a validade de todo o ordenamento jurídico estruturado em
+                                torno
+                                da
+                                Constituição. <b>Ou melhor: quem dá validade às normas mais altas do ordenamento, isto
+                                    é, às
+                                    normas
+                                    constitucionais?</b>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center mt-5 mb-5">
+                        <div class="col-sm-12 container-text  ">
+
+                            <p>
+                                O próprio Kelsen responde ratificando a importância da elaboração da norma fundamental
+                                hipotética:
+                            </p>
+                            <div class="mt-5 mb-5 mx-auto text-center img-current">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_30.svg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center mt-5 mb-5">
+                        <div class="col-sm-12 container-text  ">
+                            <p>
+                                A norma fundamental, portanto, é a diretriz do pensamento que <b>sinaliza ao jurista que
+                                    tal
+                                    ordenamento é válido</b>, aquele a que se deve referir no que concerne às atividades
+                                jurídicas. A natureza da norma fundamental, segundo Kelsen (2009), refere-se
+                                imediatamente a
+                                uma
+                                Constituição determinada e efetivamente estabelecida.
+                            </p>
+                            <p>
+                                Conforme Mascaro (2010), a norma fundamental é uma hipótese que permite pensar o
+                                ordenamento
+                                jurídico. Trata-se de uma condição para a compreensão da cadeia lógica das validades de
+                                um
+                                ordenamento. É necessário ter como pressuposto desse escalão hierárquico de normas
+                                jurídicas
+                                que, a partir do topo, deve-se seguir a Constituição.
+                            </p>
+                            <div class="mt-10 mb-10 mx-auto text-center img-current">
+                                <img src="recursos/img/PRODISA_EDS_D2_RIM_31.svg">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div id="section" id="section21">
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col-sm-12 container-text  ">
+                    <div class="mb-5">
+                        <h2>CONSIDERAÇÕES FINAIS</h2>
+                    </div>
+                    <p>
+                        Neste pequeno estudo, tentamos destacar o início de formação da Ciência do Direito,
+                        analisando a
+                        função e a gênese da norma jurídica, instrumento essencial para o trabalho do jurista.
+                    </p>
+                    <p>
+                        Vimos a evolução em torno do debate das escolas jurídicas: a estrutura e o sistema do
+                        Direito; a
+                        passagem dos dogmas para a construção criativa da lei – com base sempre na norma, claro! E
+                        também alguns aspectos sobre o direito natural, o positivismo jurídico e o pós-positivismo,
+                        com
+                        seus principais conceitos, teóricos e polêmicas.
+                    </p>
+                    <p>
+                        Finalizamos tentando compreender a importância da teoria do clássico Hans Kelsen e seu
+                        escalonamento normativo hierárquico, que ainda exerce grande influência nos sistemas
+                        jurídicos
+                        de todo o mundo, especialmente em nosso país.
+                    </p>
+                    <p>
+                        Esperamos que os estudantes aprendam os principais conceitos apresentados e que possam
+                        utilizá-los como condutores para a resolução judicial e extrajudicial no dia a dia de seu
+                        trabalho em prol da efetivação do direito à saúde.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Página 6-->
+        <div id="section" id="section22">
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col-sm-12 container-text">
+                    <div class="mb-5">
+                        <h2>REFERÊNCIAS BIBLIOGRÁFICAS</h2>
+                    </div>
+                    <div class="ref-biblio ">
+                        <p>
+                            BEDIN, G. A. A Doutrina Jusnaturalista ou do Direito Natural: uma introdução. <b>Revista
+                                do
+                                Departamento de Ciências Jurídicas e Sociais da UNIJUÍ</b>, ano XXIII, n. 42,
+                            jul./dez.
+                            2014.
+                        </p>
+                        <p>
+                            BOBBIO, N. <b>Teoria Geral do Direito</b>. São Paulo: Martins Fontes, 2010.
+                        </p>
+                        <p>
+                            BONAVIDES, P. <b>Curso de Direito Constitucional</b>. Salvador: Juspodium, 2020.
+                        </p>
+                        <p>
+                            CARVALHO, R. S. Pirâmide Normativa de Kelsen: análise sob as teorias constitucionalistas
+                            de
+                            Ferdinand Lassale e Konrad Hesse. <b>Norte Científico</b>, v. 7, n. 1, 2012.
+                        </p>
+                        <p>
+                            COING, H. <b>Elementos Fundamentais da Filosofia do Direito</b>. Porto Alegre: Sergio
+                            Antonio
+                            Fabris
+                            Editor – SAFE, 2002.
+                        </p>
+                        <p>
+                            JHERING, R. von. <b>A finalidade do Direito</b>. Porto Alegre: Casa do Advogado, 2001.
+                        </p>
+                        <p>
+                            KELSEN, H. <b>Teoria Pura do Direito</b>. São Paulo: Martins Fontes, 2009.
+                        </p>
+                        <p>
+                            LOSANO, M. G. <b>Sistema e estrutura no Direito</b>: das origens à escola histórica. São
+                            Paulo:
+                            Martins
+                            Fontes, 2008. v. 1.
+                        </p>
+                        <p>
+                            LOSANO, M. G. <b>Sistema e estrutura no Direito</b>: o século XX. São Paulo: Martins
+                            Fontes,
+                            2010. v. 2.
+                        </p>
+                        <p>
+                            MARMELSTEIN, G. <b>Curso de Direitos Fundamentais</b>. São Paulo: Atlas, 2019.
+                        </p>
+                        <p>
+                            MASCARO, A. L. <b>Filosofia
+                                do Direito</b>. São Paulo: Atlas, 2010.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--Página 7-->
+        <div id="section" id="section23">
+            <div class="row mt-5 ml-5 p-3">
+                <h3 class="pl-3 pb-2">FICHA TÉCNICA</h3>
+                <div class="row ficha-tecnica">
+                    <div class="col-sm-12">
+                        <div class="row  p-1 mb-3">
+                            <p>
+                                <strong>© 2023. Ministério da Saúde. Fundação Oswaldo Cruz. Escola de Governo
+                                    Fiocruz.
+                                </strong>
+                            </p>
+                            <p class="mt-3 mb-3">
+                                Alguns direitos reservados. É permitida a reprodução, disseminação e utilização
+                                desta
+                                obra, desde que citada a fonte. É vedada a utilização para fins comerciais.
+                            </p>
+                            <p>
+                            <p>
+                                Especialização em Direito Sanitário. Brasília: [Curso na modalidade à distância].
+                                Escola
+                                de Governo Fiocruz, 2023.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-3">
+                <div class="row ficha-tecnica ml-5 ">
+                    <div class="col-sm-4">
+                        <div class="row  p-1 mb-3 mr-3">
+                            <div>
+                                <div class="flex-row mb-3">
+                                    <h5 class=" mb-3">Ministério da Saúde</h5>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p>Nísia Trindade Lima </p>
+                                    <p><strong>Ministra da Saúde </strong></p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p>Swedenberger Barbosa</p>
+                                    <p><strong>Secretário-Executivo</strong></p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p>Conceição Aparecida Pereira Rezende</p>
+                                    <p><strong>Diretora do Departamento de Gestão Interfederativa e Participativa
+                                            (DGIP/SE/MS) </strong></p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <h5 class="mt-4 mb-3">Fundação Oswaldo Cruz (Fiocruz) </h5>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p>Mário Moreira</p>
+                                    <p><strong>Presidente</strong></p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <h5 class="mt-4 mb-3">Fiocruz Brasília (Gereb)</h5>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p>Maria Fabiana Damásio Passos </p>
+                                    <p><strong>Diretora</strong></p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <h5 class="mt-4 mb-3">Escola de Governo Fiocruz Brasília (EGF)</h5>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p>Luciana Sepúlveda Köptcke</p>
+                                    <p><strong>Diretora Executiva </strong></p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p>Sandra Mara Campos Alves</p>
+                                    <p><strong>Programa de Direito Sanitário</strong></p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <h5>Escola de Governo Fiocruz Brasília</h5>
+                                    <p>Avenida L3 Norte, s/n, Campus Universitário Darcy Ribeiro, Gleba A</p>
+                                    <p>CEP: 70.904-130 – Brasília – DF</p>
+                                    <p>Telefone: (61) 3329-4550</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 ficha-line">
+                        <div class="row d-inline-flex ml-5 mr-3">
+                            <div>
+                                <div class="flex-row mb-3">
+                                    <h5 class="mb-3">CRÉDITOS </h5>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Coordenação-Geral do Curso </strong></p>
+                                    <p>Sandra Mara Campos Alves</p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Professor </strong></p>
+                                    <p>Jarbas Ricardo Almeida Cunha </p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <h5 class="mt-4 mb-3">PRODUÇÃO DO CURSO</h5>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Núcleo de Educação a Distância da EGF-Brasília </strong></p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Coordenação</strong></p>
+                                    <p>Maria Rezende</p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Design Instrucional</strong></p>
+                                    <p>Erick Guilhon</p>
+                                    <p>Fabrícia Alves</p>
+                                    <p>Juliana Bermudez</p>
+                                    <p>Sarah Resende</p>
+                                    <p>Simone Aguiar</p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Revisão Textual</strong></p>
+                                    <p>Erick Guilhon</p>
+                                    <p>Filipe Lopes</p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Produção Multimídia</strong></p>
+                                    <p>Márlon Lima</p>
+                                    <p>Philippe Lepletier</p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Design Gráfico </strong></p>
+                                    <p>Daniel Dias</p>
+                                    <p>Eduardo Calazans</p>
+                                    <p>Thalisson Cruz</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="row d-inline-flex">
+                            <div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Produção Audiovisual</strong></p>
+                                    <p>Arthur Gonzaga</p>
+                                    <p>Thiago Barreto</p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Edição AVA</strong></p>
+                                    <p>Ivelma Rodrigues</p>
+                                    <p>Trevor Furtado</p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Desenvolvimento</strong></p>
+                                    <p>Bruno Cardozo</p>
+                                    <p>Gabriel Ferreira</p>
+                                    <p>Joana D’Angeles</p>
+                                    <p>Rafael Cotrim</p>
+                                    <p>Douglas Fernandes</p>
+                                    <p>Thiago Xavier</p>
+                                    <p>Trevor Furtado</p>
+                                    <p>Vando Pinto</p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Supervisão de Oferta</strong></p>
+                                    <p>Meirirene Moslaves </p>
+                                </div>
+                                <div class="flex-row mb-3">
+                                    <p><strong>Suporte Técnico</strong></p>
+                                    <p>Dionete Sabate</p>
+                                    <p>Poliana Silva</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 p-1 mx-auto text-center">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-sm-3">
+                                <img class="img-fluid img-creative" width="100%"
+                                    src="recursos/img/PRODISA_EDS_D2_RIM_34_licenca.svg" alt="">
+                            </div>
+                            <div class="col-sm-9">
+                                <div class="row">
+                                    <p class="small">Esta obra é disponibilizada nos termos da Licença Creative
+                                        Commons – Atribuição – Não Comercial – Compartilhamento pela mesma licença
+                                        4.0 Internacional. É permitida a reprodução parcial ou total desta obra,
+                                        desde que citada a fonte.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center img-current text-center mt-3">
+                            <img class="img-fluid" src="recursos/img/PRODISA_EDS_D2_RIM_35_barradelogos.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10 mx-auto text-center">
+                <img src="recursos/img/PRODISA_EDS_D2_RIM_33_rodapeFinal.svg">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <div class='logo'>
+        <a id="btnTop" class="logo totop"><i class="fas fa-angle-double-up"></i></a><br>
+        <a id="btnUp" class="logo prev"><i class="fas fa-chevron-up"></i></a><br>
+        <a id="btnDown" class="logo next"><i class="fas fa-chevron-down"></i></a>
+    </div> -->
+
+    <!-- <div id="pagination" class="rotulo bot"><span id='current_page'></span> de <span id='total_page'></span> </div> -->
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/navigate.js"></script>
+
+</body>
+
+</html>
+
+<script type="text/javascript" src="extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="lib/turn.min.js"></script>
+<script>
+
+    $('.container-fluid').turn({
+        //  width: 1400,
+        height: 820,
+        page: 1,
+         autoCentrer: true,
+        duration: 1000
+    })
+</script>
