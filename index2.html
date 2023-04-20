@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    body {
+        overflow: hidden;
+    }
+
+    #flipbook .shadow,
+    #flipbook.shadow {
+
+        -webkit-box-shadow: 0 4px 10px #666;
+        -moz-box-shadow: 0 4px 10px #666;
+        -ms-box-shadow: 0 4px 10px #666;
+        -o-box-shadow: 0 4px 10px #666;
+        box-shadow: 0 4px 10px #666;
+    }
+
+    #flipbook div {
+        background: white;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="lib/turn.min.js"></script>
+</head>
+
+<body>
+    <div style="width: 960px;height: 600px;margin:auto">
+        <div id="flipbook">
+            <div class="hard"> Turn.js </div>
+            <div class="hard"></div>
+            <div> Page 1 </div>
+            <div> Page 2 </div>
+            <div> Page 3 </div>
+            <div> Page 4 </div>
+            <div class="hard"></div>
+            <div class="hard"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $("#flipbook").turn({
+            width: 960,
+            height: 600,
+            page: 1,
+            autoCentrer: true,
+            duration: 1000
+        });
+    </script>
+</body>
+
+</html>
