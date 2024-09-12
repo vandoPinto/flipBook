@@ -9,7 +9,6 @@ Este é um projeto de um livro digital que aborda o tema Direito e Sociedade. O 
 * Integração com biblioteca de ícones Font Awesome
 * Animações e efeitos visuais para melhorar a experiência do leitor
 * Possibilidade de adicionar tooltips e popovers com informações adicionais
-* Possibilidade de adicionar imagens e vídeos
 
 ## Ferramentas utilizadas
 
@@ -30,4 +29,5 @@ Se você deseja contribuir para este projeto, basta seguir os passos abaixo:
 
 ## Contato
 
-Se tiver alguma dúvida ou quiser entrar em contato com o autor do projeto, basta mandar um email para [seu email].
+Se tiver alguma dúvida ou quiser entrar em contato com o autor do projeto, basta mandar um email para vandopintoo@gmail.com.
+
